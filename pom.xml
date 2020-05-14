@@ -128,7 +128,13 @@
 			<artifactId>commons-httpclient</artifactId>
 			<version>3.1</version>
 		</dependency>
-
+                <dependency>
+                        <groupId>sun.jdk</groupId>
+                        <artifactId>jconsole</artifactId>
+                        <version>1.8</version>
+                        <scope>system</scope>
+                        <systemPath>/var/lib/jenkins/tools/hudson.model.JDK/jdk/lib/jconsole.jar</systemPath>
+                </dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
