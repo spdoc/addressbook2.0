@@ -168,6 +168,17 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+		<plugin>
+                    <groupId>org.wildfly.plugins</groupId>
+                    <artifactId>wildfly-maven-plugin</artifactId>
+                    <version>1.0.2.Final</version>
+                    <configuration>
+                       <hostname>${hostname}</hostname>
+                       <port>9990</port>
+                       <username>adminu</username>
+                       <password>Jenk@6177</password>
+                    </configuration>
+                </plugin>
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
