@@ -180,7 +180,7 @@
                     <version>2.1.0.Beta1</version>
                     <configuration>
                        <hostname>${hostname}</hostname>
-                       <port>10090</port>
+                       <port>9990</port>
                        <username>adminu</username>
                        <password>Jenk@6177</password>
                     </configuration>
